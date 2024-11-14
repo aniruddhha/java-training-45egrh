@@ -16,12 +16,32 @@ public class Methods {
 
     public void mkDir(int path) {
 
+        return;
     }
 
     public static void renameFile(String path) {
 
     }
 
+    public int fileCount(String dir) {
+        return  10;
+    }
+
+    public void createFile(String fileName) {
+        // Accessible from anywhere
+    }
+
+    protected void renameFile(String file, String newName) {
+        // accessible within this class and children
+    }
+
+    private void deleteFile(String path) {
+        // accessible only from this class
+    }
+
+    void copyFile() {
+        // accessible in same package/folder
+    }
     public static void main(String[] args) {
         int sum = addNumbers(19,56);
 
@@ -35,6 +55,7 @@ public class Methods {
 
         Methods m = new Methods();
         m.mkDir(1); // with the help of object : Instance methods
+        int cnt = m.fileCount("/");
 
         Methods.renameFile("abc"); // with the help of class name itself : class methods
 
