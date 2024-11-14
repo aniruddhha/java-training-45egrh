@@ -1,8 +1,22 @@
 public class MethodDemo {
 
+    private void calcUsages() {
+        // accessible within class only
+    }
+
+    protected  void calcMemory() {
+        // accessible in class and child classes
+    }
+
+    public void calcDisk() {
+        // accessible everywhere
+    }
+
     public int addNumbers(int n1, int n2) {
         n1 = 100;
         return n1 + n2;
+
+//        return 12.f;
     }
 
     void showResult() {
