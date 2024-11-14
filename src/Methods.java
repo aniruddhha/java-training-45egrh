@@ -39,6 +39,9 @@ public class Methods {
         // accessible only from this class
     }
 
+    /*
+    * Copies the file from give inputs
+    * */
     void copyFile() {
         // accessible in same package/folder
     }
