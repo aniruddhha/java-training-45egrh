@@ -1,5 +1,8 @@
-public class BanAccount {
+package morning;
 
+public abstract class BanAccount {
+
+    private Car c;
     protected int balance;
 
     // Constructor
@@ -25,15 +28,15 @@ public class BanAccount {
 
     public static void main(String[] args) {
 
-        BanAccount ac1 = new BanAccount();
-        ac1.deposit(1000);
-        System.out.println("Balance " + ac1.checkBalance());;
+//        morning.BanAccount ac1 = new morning.BanAccount();
+//        ac1.deposit(1000);
+//        System.out.println("Balance " + ac1.checkBalance());;
 
-        BanAccount ac2 = new BanAccount(1000);
+//        morning.BanAccount ac2 = new morning.BanAccount(1000);
 
         BanAccount ac3 = new CurrentAccount();
         BanAccount ac4 = new SavingAccount();
-        BanAccount ac5 = new BanAccount();
+//        morning.BanAccount ac5 = new morning.BanAccount();
     }
 }
 

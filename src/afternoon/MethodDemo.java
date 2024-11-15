@@ -1,3 +1,5 @@
+package afternoon;
+
 public class MethodDemo {
 
     private void calcUsages() {

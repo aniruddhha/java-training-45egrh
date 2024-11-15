@@ -1,3 +1,5 @@
+package morning;
+
 public class Methods {
 
     public static int addNumbers(int n1, int n2) {

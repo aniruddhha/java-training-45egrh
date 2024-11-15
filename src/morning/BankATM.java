@@ -1,3 +1,5 @@
+package morning;
+
 public interface BankATM {
 
     void withdraw(int amt);

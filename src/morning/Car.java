@@ -1,3 +1,5 @@
+package morning;
+
 import java.util.Date;
 
 public class Car {
