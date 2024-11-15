@@ -3,18 +3,18 @@ import java.util.Date;
 public class Car {
 
     // state
-    int engineStatus = 0;
-    int lights;
-    String color;
-    Date mfg;
-    boolean isEv;
+    private int engineStatus;
+    private int lights;
+    private String color;
+    private Date mfg;
+    private boolean isEv;
 
     // behaviour
-    void start() { }
+    public void start() { }
 
-    void stop() { }
+    public void stop() { }
 
-    void turnOnLights() {}
+    public void turnOnLights() {}
 
-    void turnOffLights() {}
+    public void turnOffLights() {}
 }
