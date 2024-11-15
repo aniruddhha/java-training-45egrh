@@ -4,7 +4,14 @@ public class BankAccount {
 
     private int balance;
 
-    public void deposit(int amt) {
+    private int calculateSmsCharges() {
+        return 0;
+    }
+
+    public void deposit(int amt) {;
+
+        calculateSmsCharges();
+
         balance += amt;
     }
 
