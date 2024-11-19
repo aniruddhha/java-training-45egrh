@@ -21,3 +21,18 @@ class Rectangle extends Shape {
         System.out.println("Drawing Rectangle");
     }
 }
+
+class Shaper {
+
+    public void drawAnyShape() {
+
+        Shape tr = new Triangle(); // upcasting
+        tr.draw();
+//        tr.area();
+        Triangle cpy = (Triangle) tr; //down casting
+        cpy.area();
+
+        Shape rec = new Rectangle();
+        rec.draw();
+    }
+}
