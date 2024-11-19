@@ -43,6 +43,9 @@ class Shaper {
 
         drawShape(triangle); // polymorphism
         drawShape(rectangle);
+
+        Shape s = new Rectangle();
+        Triangle tr = (Triangle) s; // downcasting
     }
 
 }
