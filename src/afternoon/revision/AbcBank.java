@@ -1,4 +1,4 @@
-package afternoon;
+package afternoon.revision;
 
 public class AbcBank extends BaseBank implements AtmCard {
 

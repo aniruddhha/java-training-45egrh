@@ -1,6 +1,6 @@
-package afternoon;
+package afternoon.revision;
 
-public class XyzBank extends BaseBank implements  AtmCard{
+public class XyzBank extends BaseBank implements AtmCard {
 
     @Override
     public void withdraw(int amt) {
