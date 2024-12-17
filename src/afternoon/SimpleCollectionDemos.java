@@ -42,9 +42,9 @@ public class SimpleCollectionDemos {
 
         System.out.println("Key 1" + map.get(1));;
 
-        Set<Integer> keys = map.keySet();
+        Set<Integer> keys = map.keySet(); // you will get Set
 
-        Collection<String> values = map.values();
+        Collection<String> values = map.values(); // you will get Collection
     }
     public static void main(String[] args) {
         setDemo();
