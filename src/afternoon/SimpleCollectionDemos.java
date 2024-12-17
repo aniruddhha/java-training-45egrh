@@ -1,8 +1,6 @@
 package afternoon;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 public class SimpleCollectionDemos {
 
@@ -24,7 +22,18 @@ public class SimpleCollectionDemos {
 
         System.out.println(lst.toString());
     }
-    public static void main(String[] args) {
 
+    public static void setDemo() {
+        Set<String> mobiles = new HashSet<>();
+        mobiles.add("12345");
+        mobiles.add("56789");
+        mobiles.add("909797");
+        mobiles.add("12345");
+
+        System.out.println(mobiles.toString());
+
+    }
+    public static void main(String[] args) {
+        setDemo();
     }
 }
