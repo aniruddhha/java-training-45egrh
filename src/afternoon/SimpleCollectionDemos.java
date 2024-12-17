@@ -31,7 +31,20 @@ public class SimpleCollectionDemos {
         mobiles.add("12345");
 
         System.out.println(mobiles.toString());
+    }
 
+    public static void mapDemo() {
+        Map<Integer, String> map = new HashMap<>();
+
+        map.put(1, "abc");
+        map.put(2, "pqr");
+        map.put(3, "lmn");
+
+        System.out.println("Key 1" + map.get(1));;
+
+        Set<Integer> keys = map.keySet();
+
+        Collection<String> values = map.values();
     }
     public static void main(String[] args) {
         setDemo();
