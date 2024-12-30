@@ -5,12 +5,25 @@ import java.util.*;
 public class SimpleCollectionDemos {
 
 
+
+
     private static void collectionDemo() {
         Collection<String> col = new ArrayList<>();
 
         col.add("abc");
         col.contains("abc"); //checks abc is there or not
         col.clear(); // deleting all elements
+    }
+
+    private static void linkedListDemo() {
+        List<String> lst = new LinkedList<>();
+        lst.add("abc");
+        lst.add("pqr");
+        lst.add("lmn");
+        lst.add("xyz");
+        lst.add("zzz");
+
+        System.out.println(lst);
     }
 
     public static void listDemo() {
@@ -47,6 +60,6 @@ public class SimpleCollectionDemos {
         Collection<String> values = map.values(); // you will get Collection
     }
     public static void main(String[] args) {
-        setDemo();
+        mapDemo();
     }
 }
